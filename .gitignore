@@ -1,0 +1,46 @@
+# .NET / Visual Studio
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+TestResults/
+*.DotSettings.user
+
+# Flutter & Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub/
+.pub-cache/
+ipo/build/
+build/
+coverage/
+*.lock
+!pubspec.lock
+
+# Android & iOS build artifacts
+ipo/android/app/debug/
+ipo/android/app/profile/
+ipo/android/app/release/
+ipo/ios/Flutter/.last_build_id
+ipo/ios/Pods/
+
+# Secrets & Local Configurations
+*.local.json
+firebase-admin.json
+firebase-key.json
+appsettings.Local.json
+*.p12
+*.keystore
+*.jks
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.log
